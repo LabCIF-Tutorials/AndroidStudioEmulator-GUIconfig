@@ -15,8 +15,8 @@ The goal of this exercise is to run an app inside the Android Studio emulator on
 > **_NOTE TO WINDOWS USERS_**
 > 
 > - The emulator installed with Android Studio requires the Intel [Hardware Accelerated Execution Manager (HAXM)](https://github.com/intel/haxm) drivers. However, HAXM is **not** compatible with the "Windows Hypervisor Platform";
-> - The "Windows Subsystem for Linux (WSL)" requires the "Windows Hypervisor Platform (WHP)" to work. Therefore, it is **not** possible to have both WSL and Android emulator running at the same time;
-> - If you want/need to have both Android emulator and WSL you can try Visual Studio instead of Android Studio. [Visual Studio](https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?pivots=windows) provides an IDE with support for running Android emulator with Hyper-V (we didn't test this solution).
+> - The "Windows Subsystem for Linux (WSL)" requires the "Windows Hypervisor Platform (WHP)" to work. Therefore, it is **not** possible to have both the WSL and the Android Studio Emulator running at the same time;
+> - If you want/need to have an Android emulator and WSL at the same time you can try Visual Studio instead of Android Studio. [Visual Studio](https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?pivots=windows) provides an IDE with support for running Android emulator with Hyper-V (we didn't test this solution).
 
 
 > **_NOTE TO LINUX USERS_**
