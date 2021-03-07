@@ -215,4 +215,4 @@ generic_x86_64_arm64:/$ exit
 /sdcard/Download/<compressed-filename>.tgz: 1 file pulled. 0.1 MB/s (180 bytes in 0.010s)
 ```
 
-3. Decompress the file with `7z`, or other tool that supports `.tgz` files, and start the analysis
+3. Decompress the file with `7z`, or other tool that supports `.tgz` files, inside a Linux VM (see note above) and start the analysis
