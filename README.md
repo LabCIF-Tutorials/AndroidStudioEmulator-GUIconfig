@@ -83,7 +83,8 @@ Once the Android Studio is installed, we need to create and configure an Android
 8.  In the `System Image` window select the latest recommended release, then `Next`:
     ![step8](imgs/as-08.png)
 
-> **_NOTE:_** 
+> **_NOTE_** 
+> 
 > We need root access to the folders inside the emulator, therefore we **cannot select** a system-image with `_playstore` name, or symbol.
 
 9.  Now, in the `Android Virtual Device (AVD)` verify the configuration and click `Finish`:
