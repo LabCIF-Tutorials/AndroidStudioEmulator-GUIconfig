@@ -192,11 +192,11 @@ generic_x86_64_arm64:/ # cd /data/data/<app dir>
 
 ```console
 > adb shell
-generic_x86_64_arm64:/ $ su
-generic_x86_64_arm64:/ # cd /data/data/
-generic_x86_64_arm64:/ # tar -cvzf /sdcard/Download/<compressed-filename>.tgz <app folder>/
-generic_x86_64_arm64:/ # exit
-generic_x86_64_arm64:/ $ exit
+generic_x86_64_arm64:/$ su
+generic_x86_64_arm64:/# cd /data/data/
+generic_x86_64_arm64:/data/data# tar -cvzf /sdcard/Download/<compressed-filename>.tgz <app folder>/
+generic_x86_64_arm64:/data/data# exit
+generic_x86_64_arm64:/$ exit
 ```
 
 > ***_NOTE_*** 
