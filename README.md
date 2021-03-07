@@ -123,13 +123,13 @@ Go to https://www.apkmirror.com/ and download the latest versions of following a
 
 Save the files in the directory `C:\apk`, open a command line (`cmd.exe`) and type:
 
-```bash
+```console
 > cd %LOCALAPPDATA%\Android\Sdk\platform-tools
 ```
 
 Now, use the `adb` commands to connect to the emulator and install the desired apps (repalace `<app-filename>` with the actual filenames):
 
-```bash
+```console
 > adb devices
 List of devices attached
 emulator-5554   device
@@ -153,14 +153,14 @@ Next, is a description of each of them.
 
 **Public data** -- data that is available even on non-rooted devices:
 
-```bash
+```console
 > adb shell
 generic_x86_64_arm64:/ $ cd /storage/emulated/0/Android/data/<app dir>
 ```
 
 However, there are 4 links that can be used as alternative paths to `/storage/emulated/0/` and, therefore, to reach the public data dir:
 
-```bash
+```console
 /
 ├── sdcard/ → /storage/self/primary/
 ├── mnt/
@@ -173,14 +173,14 @@ However, there are 4 links that can be used as alternative paths to `/storage/em
 
 So, you can use also a shorter path:
 
-```bash
+```console
 > adb shell
 generic_x86_64_arm64:/ $ cd /sdcard/Android/data/<app dir>
 ```
 
 **Private data** -- data that is only available with root (notice the change from `$` to `#` in the prompt):
 
-```bash
+```console
 > adb shell
 generic_x86_64_arm64:/ $ su
 generic_x86_64_arm64:/ # cd /data/data/<app dir>
