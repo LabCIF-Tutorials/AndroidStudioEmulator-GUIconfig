@@ -2,6 +2,10 @@
 
 The goal of this tutorial is to install Android Studio to run an apps.
 
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+
 > **_NOTES TO LINUX USERS_**
 > 
 > - This tutorial was created with Windows OS in mind. However, appart from the installation process, the steps to set up Android Studio on Linux are the same (sections 2. and 3.).
