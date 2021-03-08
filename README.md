@@ -2,9 +2,9 @@
 
 The goal of this tutorial is to install Android Studio to run apps.
 
-|         |           |
-| :-:     | :--       |
 | ![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png) | This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) |
+| :------ | :------ |
+|                   |
 
 ## Table of Contents <!-- omit in toc -->
 - [1. Install required tools](#1-install-required-tools)
