@@ -14,6 +14,7 @@ The goal of this tutorial is to install Android Studio to run an apps.
 > - If you want/need to have an Android emulator and WSL at the same time, you can try the Visual Studio instead of Android Studio. [Visual Studio](https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?pivots=windows) + [Xamarin](https://docs.microsoft.com/en-us/xamarin/get-started/installation/windows) provides an IDE with support for running Android emulator with **Hyper-V** instead of HAXM (we didn't test this solution).
 > - HAXM drivers are not compatible with AMD CPUs, but it's still possible to run Android Studion Emulator in AMD processors.
 
+## Table of Contents <!-- omit in toc -->
 - [1. Install required tools](#1-install-required-tools)
 - [2. Configure emulator](#2-configure-emulator)
 - [3. Exercise](#3-exercise)
