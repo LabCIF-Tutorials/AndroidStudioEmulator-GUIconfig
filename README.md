@@ -1,6 +1,6 @@
-# MCIF-AFD2--AndroidApps <!-- omit in toc -->
+# AndroidStudioEmulator-GUIconfig <!-- omit in toc -->
 
-MCIF-AFD2 Run Android Apps in Android Studio emulator for forensic analysis
+Run Android Apps in Android Studio emulator for forensic analysis
 
 ## Table of Contents <!-- omit in toc -->
 
