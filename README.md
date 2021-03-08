@@ -1,7 +1,3 @@
----
-Title: Set up Android Studio Emulator through the GUI
----
-
 # AndroidStudioEmulator-GUIconfig <!-- omit in toc -->
 
 The goal of this tutorial is to install Android Studio to run apps.
