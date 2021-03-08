@@ -14,7 +14,7 @@ The goal of this tutorial is to install Android Studio to run apps.
 ## 1. Install required tools
 
 > **_NOTES TO LINUX USERS_**
-> 
+>
 > - This tutorial was created with Windows OS in mind. However, appart from the installation process, the steps to set up Android Studio on Linux are the same (sections 2. and 3.).
 > - If you want to try the Android Studio Emulator **without** the GUI (to save resources), you can try this [tutorial](https://labcif.github.io/AndroidStudioEmulator-cmdConfig/).
 
