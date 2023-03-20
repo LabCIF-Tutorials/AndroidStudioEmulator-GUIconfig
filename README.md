@@ -96,8 +96,7 @@ Once the Android Studio is installed, we need to create and configure an Android
 > **_NOTE_**
 >
 > We need root access to the folders inside the emulator, therefore we **cannot select** a system-image with `_playstore` name, or symbol.
-
-    ![step8](imgs/as-08v2.png)
+	![step8](imgs/as-08v2.png)
 	- Then click `Finish`, and `Next`)
 
 9. Now, in the `Android Virtual Device (AVD)` verify the configuration and click `Finish`:
