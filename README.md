@@ -93,12 +93,12 @@ Once the Android Studio is installed, we need to create and configure an Android
 
 8. In the `System Image` window select `x86 Images`, then select `API Level = 30` (we don't want the latest version because it'll have more security features that make it harder for us to analyse apps) with `ABI = x86_64` . Finaly click the down arrow next to the `R` letter to download the emulator files:
 	![step8](imgs/as-08v2.png)
+	- Then click `Finish`, and `Next`
 
 > **_NOTE_**
 >
 > We need root access to the folders inside the emulator, therefore we **cannot select** a system-image with `_playstore` name, or symbol.
 
-	- Then click `Finish`, and `Next`)
 
 9. Now, in the `Android Virtual Device (AVD)` verify the configuration and click `Finish`:
 	![step9](imgs/as-09v2.png)
