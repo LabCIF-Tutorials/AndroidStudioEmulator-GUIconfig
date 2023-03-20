@@ -40,61 +40,77 @@ Download and install the following tool:
 > If you already installed Android Studio and need to install the HAXM drivers, run: `%LOCALAPPDATA%\Android\Sdk\extras\intel\Hardware_Accelerated_Execution_Manager\intelhaxm-android.exe`
 
 To install Android Studio, follow thess steps:
+- Step 1: ![step1](imgs/inst-01v2.png)
 
-![step1](imgs/inst-01.png)
+- Step 2 ![step2](imgs/inst-02v2.png)
 
-![step2](imgs/inst-02.png)
+- Step 3:![step3](imgs/inst-03v2.png)
 
-![step3](imgs/inst-03.png)
+- Step 4:![step4](imgs/inst-04v2.png)
+
+- Step 5:![step5](imgs/inst-05v2.png)
+
+- Step 6:![step6](imgs/inst-06v2.png)
+
+- Step 7:![step7](imgs/inst-07v2.png)
+	- Also check [Configure hardware acceleration for the Android Emulator](https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio), and for Ubuntu Linux also check [KVM installation](https://help.ubuntu.com/community/KVM)
+
+- Step 8:![step8](imgs/inst-08v2.png)
+
 
 ## 2. Configure emulator
 
 Once the Android Studio is installed, we need to create and configure an Android Virtual Device (AVD).
 
-1. Open Android Studio and choose `Create New Project`:
-    ![step1](imgs/as-01.png)
+1. Open Android Studio and choose `New Project`:
+    ![step1](imgs/as-01v2.png)
 
-2. In the `Project Template` window select `No Activity`, and then `Next`:
-    ![step2](imgs/as-02.png)
+2. In the `New Project` window select `No Activity`, and then `Next`:
+    ![step2](imgs/as-02v2.png)
 
 3. On the `Configure Your Project` give a name to it, like `MCIF-AFD2`, and click `Finish`:
-    ![step3](imgs/as-03.png)
+    ![step3](imgs/as-03v2.png)
+	- Wait for the installation of the packages, then press `Finish`.
 
-4. The Android Studio IDE should be open now. Go to `Tools → AVD Manager`:
-    ![step4](imgs/as-04.png)
+4. The Android Studio IDE should be open now. Go to `Tools → Device Manager`:
+    ![step4](imgs/as-04v2.png)
 
-5. In the `Virtual Devices` window, click `Create Virtual Device...`:
-    ![step5](imgs/as-05.png)
+5. In the `Device Manager` sub-window, click `Create Device`:
+    ![step5](imgs/as-05v2.png)
 
 6. In the `Select Hardware` window, click `New Hardware Profile`:
-    ![step6](imgs/as-06.png)
+    ![step6](imgs/as-06v2.png)
 
 7. A new windows will open, the `Configure Hardware Profile`:
+	- give a name to the device, e.g. `AFD2 Low resolution`
+	- chose a resolution (the lower the resolution the better the emulator performance will be), we recommend `320x640`
+	- activate both `Input` check boxes (`Has Hardware ...`)
+	- then click `Finish`
+    ![step7](imgs/as-07v2.png)
 
-- give a name to the device
-- chose a resolution (the lower the resolution the better the emulator performance will be), we recommend `320x640`
-- activate both `Has Hardware` check boxes
-- then click `Finish`
-  
-    ![step7](imgs/as-07.png)
+	- Verify that the new devices exists, then press `Next`
+		![step7.1](imgs/as-07.1v2.png)
 
-8. In the `System Image` window select the latest recommended release, then `Next`:
-    ![step8](imgs/as-08.png)
+8. In the `System Image` window select `x86 Images`, then select `API Level = 30` (we don't want the latest version because it'll have more security features that make it harder for us to analyse apps) with `ABI = x86_64` . Finaly click the down arrow next to the `R` letter to download the emulator files:
+    ![step8](imgs/as-08v2.png)
 
 > **_NOTE_**
 > 
 > We need root access to the folders inside the emulator, therefore we **cannot select** a system-image with `_playstore` name, or symbol.
 
-9. Now, in the `Android Virtual Device (AVD)` verify the configuration and click `Finish`:
-    ![step9](imgs/as-09.png)
+	- Then click `Finish`, and `Next`![step8](imgs/as-08.1v2.png)
 
-10. The newly created AVD should now be listed in the `Your Virtual Devices`. Select it and click `run` (triangle under the `Actions` column):
-    ![step10](imgs/as-10.png)
+9. Now, in the `Android Virtual Device (AVD)` verify the configuration and click `Finish`:
+	![step9](imgs/as-09v2.png)
+
+10. The newly created AVD should now be listed in the `Devices`. Select it and click `run` (triangle under the `Actions` column):
+	![step10](imgs/as-10v2.png)
+	- You may detach the `Devices` window:![step10](imgs/as-10.1v2.png)
+	
 
 11. If everything goes ok, you should be able to see the emulator window. Notice the buttons `Power`, `Back`, `Home` and `Overview` on top of the window. Interact with the emulated Android to confirm that everything is working.
-
-    ![step11](imgs/as-11.png)
+	![step11](imgs/as-11v2.png)
 
 ## 3. Exercise
 
-After setting up the Android Studio Emulator and making sure it's working, do the [exercise listed here](https://labcif.github.io/AndroidStudioEmulator-acquireAppsData/)
+After setting up the Android Studio Emulator and making sure it's working, do the [exercise listed here](https://labcif-tutorials.github.io/AndroidStudioEmulator-acquireAppsData/)
